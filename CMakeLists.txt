@@ -4,3 +4,5 @@ project(EstructurasDeControl)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(EstructurasDeControl verificaPrimeraLetra.cpp)
+add_executable(verificaPositivo verificaPositivo.cpp)
+add_executable(verificaAprobado verificaAprobado.cpp)

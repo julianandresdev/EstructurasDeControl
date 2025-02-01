@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "EstructurasDeControl",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -41,6 +45,20 @@
 					"id" : "EstructurasDeControl::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-EstructurasDeControl-Debug-6396d84f309e6f2d06ae.json",
 					"name" : "EstructurasDeControl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "verificaAprobado::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-verificaAprobado-Debug-df1a0dc23a1641a144f4.json",
+					"name" : "verificaAprobado",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "verificaPositivo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-verificaPositivo-Debug-5aae4a56a64ca065469c.json",
+					"name" : "verificaPositivo",
 					"projectIndex" : 0
 				}
 			]
