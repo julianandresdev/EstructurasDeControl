@@ -1,0 +1,4 @@
+# ninja log v6
+4	258	7601382403077879	build.ninja	4079c05e6070df9a
+25	421	7601382403963649	CMakeFiles/EstructurasDeControl.dir/verificaPrimeraLetra.cpp.obj	c3b91a71e625d424
+422	499	7601382407940935	EstructurasDeControl.exe	5bdfd55518e007c0

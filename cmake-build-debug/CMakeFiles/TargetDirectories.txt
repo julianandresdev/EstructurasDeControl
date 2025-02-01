@@ -1,0 +1,3 @@
+C:/Users/Julian/Documents/CLion/EstructurasDeControl/cmake-build-debug/CMakeFiles/EstructurasDeControl.dir
+C:/Users/Julian/Documents/CLion/EstructurasDeControl/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Julian/Documents/CLion/EstructurasDeControl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
