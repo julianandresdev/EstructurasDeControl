@@ -1,8 +1,12 @@
 # ninja log v6
-4	258	7601384545604503	build.ninja	4079c05e6070df9a
+4	258	7601387706080922	build.ninja	4079c05e6070df9a
 422	499	7601382407940935	EstructurasDeControl.exe	5bdfd55518e007c0
 25	421	7601382403963649	CMakeFiles/EstructurasDeControl.dir/verificaPrimeraLetra.cpp.obj	c3b91a71e625d424
-13	362	7601384754476810	CMakeFiles/verificaAprobado.dir/verificaAprobado.cpp.obj	c407946cb8ee1780
 362	432	7601384757964387	verificaAprobado.exe	88623bd3110d9fb4
+13	362	7601384754476810	CMakeFiles/verificaAprobado.dir/verificaAprobado.cpp.obj	c407946cb8ee1780
 1	343	7601385140978949	CMakeFiles/verificaPositivo.dir/verificaPositivo.cpp.obj	77a33c12a8765e3
 344	410	7601385144412960	verificaPositivo.exe	ce7b6bf938b58d66
+15	380	7601388218199811	CMakeFiles/verificaCandidato.dir/verificaCandidato.cpp.obj	3d9318db9f3b4598
+380	457	7601388221843325	verificaCandidato.exe	c948e65580bf3d16
+22	391	7601388270816236	CMakeFiles/evaluacionCalificacion.dir/evaluacionCalificacion.cpp.obj	e49a2c034df1803f
+392	462	7601388274507852	evaluacionCalificacion.exe	55b0604e0249fb27

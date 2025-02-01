@@ -55,6 +55,12 @@ build CMakeFiles/EstructurasDeControl.dir/verificaPrimeraLetra.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\EstructurasDeControl.dir
   OBJECT_FILE_DIR = CMakeFiles\EstructurasDeControl.dir
 
+build CMakeFiles/EstructurasDeControl.dir/evaluacionCalificacion.cpp.obj: CXX_COMPILER__EstructurasDeControl_unscanned_Debug C$:/Users/Julian/Documents/CLion/EstructurasDeControl/evaluacionCalificacion.cpp || cmake_object_order_depends_target_EstructurasDeControl
+  DEP_FILE = CMakeFiles\EstructurasDeControl.dir\evaluacionCalificacion.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EstructurasDeControl.dir
+  OBJECT_FILE_DIR = CMakeFiles\EstructurasDeControl.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target EstructurasDeControl
@@ -63,7 +69,7 @@ build CMakeFiles/EstructurasDeControl.dir/verificaPrimeraLetra.cpp.obj: CXX_COMP
 #############################################
 # Link the executable EstructurasDeControl.exe
 
-build EstructurasDeControl.exe: CXX_EXECUTABLE_LINKER__EstructurasDeControl_Debug CMakeFiles/EstructurasDeControl.dir/verificaPrimeraLetra.cpp.obj
+build EstructurasDeControl.exe: CXX_EXECUTABLE_LINKER__EstructurasDeControl_Debug CMakeFiles/EstructurasDeControl.dir/verificaPrimeraLetra.cpp.obj CMakeFiles/EstructurasDeControl.dir/evaluacionCalificacion.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\EstructurasDeControl.dir
@@ -139,6 +145,72 @@ build verificaAprobado.exe: CXX_EXECUTABLE_LINKER__verificaAprobado_Debug CMakeF
   TARGET_IMPLIB = libverificaAprobado.dll.a
   TARGET_PDB = verificaAprobado.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target verificaCandidato
+
+
+#############################################
+# Order-only phony target for verificaCandidato
+
+build cmake_object_order_depends_target_verificaCandidato: phony || .
+
+build CMakeFiles/verificaCandidato.dir/verificaCandidato.cpp.obj: CXX_COMPILER__verificaCandidato_unscanned_Debug C$:/Users/Julian/Documents/CLion/EstructurasDeControl/verificaCandidato.cpp || cmake_object_order_depends_target_verificaCandidato
+  DEP_FILE = CMakeFiles\verificaCandidato.dir\verificaCandidato.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\verificaCandidato.dir
+  OBJECT_FILE_DIR = CMakeFiles\verificaCandidato.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target verificaCandidato
+
+
+#############################################
+# Link the executable verificaCandidato.exe
+
+build verificaCandidato.exe: CXX_EXECUTABLE_LINKER__verificaCandidato_Debug CMakeFiles/verificaCandidato.dir/verificaCandidato.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\verificaCandidato.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = verificaCandidato.exe
+  TARGET_IMPLIB = libverificaCandidato.dll.a
+  TARGET_PDB = verificaCandidato.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target evaluacionCalificacion
+
+
+#############################################
+# Order-only phony target for evaluacionCalificacion
+
+build cmake_object_order_depends_target_evaluacionCalificacion: phony || .
+
+build CMakeFiles/evaluacionCalificacion.dir/evaluacionCalificacion.cpp.obj: CXX_COMPILER__evaluacionCalificacion_unscanned_Debug C$:/Users/Julian/Documents/CLion/EstructurasDeControl/evaluacionCalificacion.cpp || cmake_object_order_depends_target_evaluacionCalificacion
+  DEP_FILE = CMakeFiles\evaluacionCalificacion.dir\evaluacionCalificacion.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\evaluacionCalificacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\evaluacionCalificacion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target evaluacionCalificacion
+
+
+#############################################
+# Link the executable evaluacionCalificacion.exe
+
+build evaluacionCalificacion.exe: CXX_EXECUTABLE_LINKER__evaluacionCalificacion_Debug CMakeFiles/evaluacionCalificacion.dir/evaluacionCalificacion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\evaluacionCalificacion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = evaluacionCalificacion.exe
+  TARGET_IMPLIB = libevaluacionCalificacion.dll.a
+  TARGET_PDB = evaluacionCalificacion.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,7 +239,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build EstructurasDeControl: phony EstructurasDeControl.exe
 
+build evaluacionCalificacion: phony evaluacionCalificacion.exe
+
 build verificaAprobado: phony verificaAprobado.exe
+
+build verificaCandidato: phony verificaCandidato.exe
 
 build verificaPositivo: phony verificaPositivo.exe
 
@@ -179,7 +255,7 @@ build verificaPositivo: phony verificaPositivo.exe
 #############################################
 # Folder: C:/Users/Julian/Documents/CLion/EstructurasDeControl/cmake-build-debug
 
-build all: phony EstructurasDeControl.exe verificaPositivo.exe verificaAprobado.exe
+build all: phony EstructurasDeControl.exe verificaPositivo.exe verificaAprobado.exe verificaCandidato.exe evaluacionCalificacion.exe
 
 # =============================================================================
 # Built-in targets
